@@ -1,0 +1,9 @@
+var a,b
+var c,d
+def simplify ( e, f )
+begin
+    a := - ( 5*5 + 20/4 - 3 + 2)
+    print "a=", a
+    if a=0 then b := simplify ( c, d )
+    return 0
+end
